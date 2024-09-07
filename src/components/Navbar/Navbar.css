@@ -1,0 +1,45 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+   
+  background: url('https://example.com/background-image.jpg') no-repeat center center;
+  background-size: cover; /* Ensures background image covers entire area */
+  /* Padding to prevent content from touching edges */
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 100px;
+  
+  
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  
+  
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .wrapper {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .contact-info {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}

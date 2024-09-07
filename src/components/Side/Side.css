@@ -1,0 +1,39 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* Ensure it stays fixed on the screen */
+    pointer-events: auto;
+    z-index: 1000;
+    
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;  /* Match the width in Side.js */
+    height: 100vh; /* Full height */
+    background: whitesmoke;
+    
+}
+
+
+.menu-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    background-color: white; /* Set background color to white */
+    border: 2px solid black; /* Optional: add a border to make it stand out */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;  /* Ensure it's above the sidebar */
+}

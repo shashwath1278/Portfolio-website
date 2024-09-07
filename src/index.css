@@ -1,13 +1,52 @@
+/* Global styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-image: url('https://img.freepik.com/premium-photo/dark-night-sky-with-stars-background-space-stars-texture-colorful-stars-night-sky_1064771-3673.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Makes sure the image covers both halves */
+  background-position: center;
+  min-height: 100vh; /* Ensures the background covers the full viewport height */
+  color: white;
+  font-family: 'outfit';
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'DM sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/* Section styling */
+.section {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+  scroll-snap-align: center;
+}
+
+/* Other specific styles */
+.f {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+/* Section styling to ensure they take up full height */

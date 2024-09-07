@@ -1,0 +1,48 @@
+.newcomp{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    gap:35px;
+}
+
+.newcomp img{
+    margin-top:0px;
+   
+}
+
+.newcomp h1 span{
+    background:linear-gradient(270deg,rgb(219, 21, 21) 10%,rgb(0, 98, 255) 100%);
+    background-clip:text;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.newcomp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Move the content higher */
+    padding-top: 20px; /* Fine-tune as needed */
+    height: 100vh;
+    font-size: 18px;
+  }
+  
+.s{
+    padding:20px 35px;
+    margin-top: -20px;
+    border-radius:25px;
+    border:2px solid white;
+    cursor:pointer;
+}
+.s:hover{
+    transform:scale(1.03);
+
+}
+.newcomp img {
+    margin-top: 0; /* Increase the negative margin */
+  }
+
+

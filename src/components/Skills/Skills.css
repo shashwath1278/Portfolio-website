@@ -1,0 +1,90 @@
+/* Skills.css */
+
+.sk {
+  background-color: #f4f4f4; /* Light grey background for the section */
+  padding: 50px 20px; /* Adjust padding as needed */
+  text-align: center; /* Center align the text */
+}
+
+.skills-header {
+  margin-bottom: 40px; /* Space below the header */
+}
+
+.skills-header h1 {
+  font-size: 2.5rem; /* Larger font size for the heading */
+  color: #0fada8; /* Dark grey color for the heading */
+}
+
+.skills-header p {
+  font-size: 1.2rem; /* Slightly larger font size for paragraphs */
+  color: #898383e2; /* Medium grey color for the text */
+  margin: 20px 0; /* Space between paragraphs */
+}
+
+.skills-header h2 {
+  font-size: 1.5rem; /* Font size for subheadings */
+  color: #1b3cc2; /* Dark grey color for subheadings */
+  margin: 0; /* Remove margin for h2 inside p */
+}
+
+
+.sec1, .sec2, .sec3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between images in sections */
+  
+}
+
+.skills-images img {
+  width: 60px; /* Set a standard width for images */
+  height: 60px; /* Set a standard height for images */
+  border-radius: 10px; /* Rounded corners for images */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth effect on hover */
+  
+}
+
+.skills-images img:hover {
+  transform: scale(1.1); /* Slightly enlarge image on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .skills-images {
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center align images */
+  }
+
+  .sec1, .sec2 , .sec3{
+    flex-direction: column; /* Stack images in sections vertically */
+  }
+}
+
+
+.sk {
+  height: 100vh; /* Full viewport height */
+  padding: 50px;
+  background: url('https://example.com/background-image.jpg') no-repeat center center; /* Background image */
+  background-size: cover; /* Cover the section */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Light text color for contrast */
+  text-align: center; /* Center align text */
+  position: relative;
+}
+.sec1{
+  margin-top: 0px;
+  gap:30px;
+}
+
+.sec2{
+  flex: content;
+  gap: 40px;
+ 
+}
+.sec3{
+  
+  gap: 40px;
+ 
+}
