@@ -27,8 +27,9 @@ const Socials = () => {
   return (
     <>
      
-    <section id="contact" className='socials'>; 
-      <div className='social'><h1> Feel free to reach out!</h1>
+    <section id="contact" className='socials'>
+      <div className='social'><h1> Feel free to reach out !</h1>
+      <br/>
      
    <div className="item">
     <h2>Mail</h2>

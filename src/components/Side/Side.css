@@ -28,7 +28,7 @@
     border-radius: 50%;
     position: fixed;
     top: 20px;
-    left: 40px;
+    left: 20px;
     background-color: white; /* Set background color to white */
     border: 2px solid black; /* Optional: add a border to make it stand out */
     cursor: pointer;
@@ -37,32 +37,29 @@
     align-items: center;
     z-index: 200;  /* Ensure it's above the sidebar */
 }
-/* Responsive Design */
-
-/* For tablets and smaller screens */
-@media (max-width: 768px) {
-    .sidebar {
-        width: 250px; /* Reduce width for tablets */
-    }
-
-    .menu-button {
-        left: 10px; /* Adjust position */
-        width: 40px; /* Slightly smaller button */
-        height: 40px;
-    }
+@media(max-width:590px){
+ .menu-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left:20px;
+ }
+ .background{
+    width: 220px;  /* Match the width in Side.js */
+    height: 100vh; /* Full height */
+ }
+ 
 }
-
-/* For mobile devices */
-@media (max-width: 480px) {
-    .sidebar {
-        width: 200px; /* Further reduce width for mobile screens */
-        /* Consider changing to `transform` to slide in/out */
-        transform: translateX(-200px); /* Slide in from the left */
+@media(max-width:320px){
+    .menu-button{
+       width: 30px;
+       height: 30px;
+       border-radius: 50%;
+       left:20px;
     }
-
-    .menu-button {
-        left: 5px; /* Further adjust position */
-        width: 35px; /* Smaller button */
-        height: 35px;
+    .background{
+       width: 180px;  /* Match the width in Side.js */
+       height: 100vh; /* Full height */
     }
-}
+    
+   }

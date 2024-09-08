@@ -13,9 +13,10 @@
   align-items: center;
   font-size: 20px;
   margin-left: 100px;
-  
-  
+ 
 }
+  
+
 
 .contact-info {
   display: flex;
@@ -23,46 +24,47 @@
   gap: 15px;
   font-size: 20px;
   
-  
 }
 
-/* Responsive Design for smaller screens */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    height: auto; /* Allow the navbar to adjust based on content */
-    padding: 10px; /* Add some padding for smaller screens */
+@media(max-width:770px){
+  .wrapper{
+   font-size:23px;
   }
-
-  .wrapper {
-    justify-content: center;
-    margin-left: 0; /* Remove left margin for centered alignment */
-    margin-bottom: 10px;
-  }
-
-  .contact-info {
-    justify-content: center;
-    margin-top: 10px;
-  }
+  .contact-info{
+    img{
+      height:30px;
+      width:30px;
+    }}
+ }
+@media(max-width:590px){
+ .wrapper{
+  font-size:15px;
+ }
 }
 
-/* For mobile screens */
-@media (max-width: 480px) {
-  .navbar {
-    padding: 10px; /* Reduce padding for very small screens */
-    background-size: contain; /* Adjust background image for smaller devices */
+ @media(max-width:470px){
+  .wrapper{
+   font-size:15px;
+   position: relative;
+   left:-30px;
   }
-
-  .wrapper, .contact-info {
-    font-size: 18px; /* Reduce font size for smaller screens */
+  .contact-info{
+  img{
+    height:22px;
+    width:22px;
   }
-
-  .wrapper {
-    margin-left: 0; /* No margin on small screens */
-    margin-bottom: 5px;
   }
-
-  .contact-info {
-    gap: 10px; /* Reduce gap between contact info elements */
+ }
+ @media(max-width:332px){
+  .wrapper{
+   font-size:12px;
+   position: relative;
+   left:-35px;
   }
-}
+  .contact-info{
+  img{
+    height:17px;
+    width:17px;
+  }
+  }
+ }

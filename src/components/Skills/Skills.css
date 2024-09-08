@@ -1,24 +1,19 @@
-/* Skills.css */
 
 .sk {
   background-color: #f4f4f4; /* Light grey background for the section */
   padding: 50px 20px; /* Adjust padding as needed */
+  background: url('https://example.com/background-image.jpg') no-repeat center center;
   text-align: center; /* Center align the text */
+  position: relative; /* Ensure proper positioning */
 }
 
-.skills-header {
-  margin-bottom: 40px; /* Space below the header */
-}
 
-.skills-header h1 {
-  font-size: 2.5rem; /* Larger font size for the heading */
-  color: #0fada8; /* Dark grey color for the heading */
-}
+
 
 .skills-header p {
   font-size: 1.2rem; /* Slightly larger font size for paragraphs */
   color: #898383e2; /* Medium grey color for the text */
-  margin: 20px 0; /* Space between paragraphs */
+  margin: 10px 0; /* Space between paragraphs */
 }
 
 .skills-header h2 {
@@ -27,95 +22,124 @@
   margin: 0; /* Remove margin for h2 inside p */
 }
 
-
-.sec1, .sec2, .sec3 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px; /* Space between images in sections */
+.skills-images {
   
-}
-
-.skills-images img {
-  width: 60px; /* Set a standard width for images */
-  height: 60px; /* Set a standard height for images */
-  border-radius: 10px; /* Rounded corners for images */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth effect on hover */
+  h1{
+    font-size: 2.5rem; /* Larger font size for the heading */
+    color: #0fada8;
+  }
   
-}
-
-.skills-images img:hover {
-  transform: scale(1.1); /* Slightly enlarge image on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
-}
-
-.sk {
-  height: 100vh; /* Full viewport height */
-  padding: 50px;
-  background: url('https://example.com/background-image.jpg') no-repeat center center; /* Background image */
-  background-size: cover; /* Cover the section */
+    /* Slightly larger font size for paragraphs */
+    color: #9295a8e2; /* Medium grey color for the text */
+    margin:  0; /* Space between paragraphs */
+  
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  color: #fff; /* Light text color for contrast */
-  text-align: center; /* Center align text */
-  position: relative;
-}
-.sec1{
-  margin-top: 0px;
-  gap:30px;
+  gap: 20px; /* Space between image sections */
 }
 
-.sec2{
-  flex: content;
-  gap: 40px;
- 
+.sec1 img, .sec2 img, .sec3 img {
+  width: 40px; /* Smaller width for images */
+  height: 40px; /* Smaller height for images */
+  margin: 5px; /* Margin around images */
+  border-radius: 10px; /* Rounded corners for images */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
 }
-.sec3{
+.sec1 img:hover, .sec2 img:hover, .sec3 img:hover {
+  transform: scale(1.2); /* Slightly enlarge image on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+@media(max-width:770px){
+  .skills-images{
+    h1{
+      font-size: 50px;
+  }
+}
+  .sec1,.sec2,.sec3{
+    font-size: 26px;
+    h2{
+      font-size: 34px;
+      color:#1b3cc2
+    }
+    img{
+      height:50px;
+      width:50px;
+    }
+  }
+
+  }
+@media(max-width:590px){
+  .skills-images{
+    h1{
+      font-size: 30px;
+  }
+}
+  .sec1,.sec2,.sec3{
+    font-size: 18px;
+    h2{
+      font-size: 20px;
+      color:#1b3cc2
+    }
+
+  }
+
+  }
   
-  gap: 40px;
- 
-}
-/* Responsive design for tablets and smaller screens */
-@media (max-width: 768px) {
-  .skills-header h1 {
-    font-size: 2rem; /* Smaller heading font size */
-  }
-
-  .skills-header p {
-    font-size: 1rem; /* Smaller font size for paragraphs */
-  }
-
-  .skills-header h2 {
-    font-size: 1.2rem; /* Smaller font size for subheadings */
-  }
-
-  .sec1, .sec2, .sec3 {
-    flex-direction: column; /* Stack sections vertically */
-    align-items: center; /* Center align sections */
-  }
-
-  .skills-images {
-    flex-direction: column; /* Stack images vertically */
-    align-items: center; /* Center align images */
-  }
-}
-
-/* Responsive design for mobile devices */
-@media (max-width: 480px) {
-  .skills-header h1 {
-    font-size: 1.5rem; /* Further reduce heading font size */
-  }
-
-  .skills-header p {
-    font-size: 0.9rem; /* Further reduce font size for paragraphs */
-  }
-
-  .skills-header h2 {
-    font-size: 1rem; /* Further reduce font size for subheadings */
-  }
-
-  .skills-images img {
-    width: 50px; /* Reduce image width for mobile */
-    height: 50px; /* Reduce image height for mobile */
-  }
-}
+    @media(max-width:470px){
+      .skills-images{
+        h1{
+          font-size: 26px;
+      }
+    }
+      .sec1,.sec2,.sec3{
+        h2{
+          font-size: 18px;
+          color:#1b3cc2
+        }
+        img{
+          height:32px;
+          width:32px;
+        }
+    
+      }
+      }
+      @media(max-width:400px){
+        .skills-images{
+          h1{
+            font-size: 20px;
+        }
+      }
+        .sec1,.sec2,.sec3{
+          font-size: 16px;
+          h2{
+            font-size: 17px;
+            color:#1b3cc2
+          }
+          img{
+            height:26px;
+            width:26px;
+          }
+          
+        }
+        }
+      @media(max-width:332px){
+        .skills-images{
+          h1{
+            font-size: 18px;
+        }
+      }
+        .sec1,.sec2,.sec3{
+          font-size: 14px;
+          h2{
+            font-size: 16px;
+            color:#1b3cc2
+          }
+          img{
+            height:24px;
+            width:24px;
+          }
+          
+        }
+        }

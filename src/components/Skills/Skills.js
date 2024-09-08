@@ -19,72 +19,53 @@ import github from '../../assets/github.png';
 const Skills = () => {
   return (
     <section id="skills" className="sk">
-      <div className="skills-header">
-        
-        <h1><b>Skills</b></h1>
-        <br></br>
-        <p><b><h2>Programming languages:</h2> </b><br></br>
-        Java, Python, HTML, CSS, Javascript, C, C++</p>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-         <p><b><h2>Some libraries and frameworks used by me: </h2></b><br></br> React.js, bootstrap, Tailwind CSS</p>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-         <p><b><h2>Tools used by me:</h2> </b><br></br>VS code, Github, Docker, Kali linux, Terminal</p>
-        
-      </div>
+     
       <div className="skills-images">
-      <br></br>
-      <br></br>
-        <div className="sec1">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src={HTML} alt="HTML" height="50px"width="50px" />
-        <img src={CSS} alt="CSS"height="50px"width="50px" />
-        <img src={JS} alt="JavaScript" height="50px"width="50px"/>
-        <img src={Java} alt="Java"height="50px"width="50px" />
-        <img src={Python} alt="Python"height="50px"width="50px" />
-        <img src={C} alt="C" height="50px"width="50px"/>
-        <img src={Cplus} alt="C++"height="50px"width="50px" />
-        </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        
-        <div className="sec2">
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <img src={Reactjs} alt="React.js"height="50px"width="50px" />
 
-        <img src={tailwindcss} alt="Tailwind CSS"height="50px"width="50px" />
-        <img src={bootstrap} alt="Bootstrap"height="50px"width="50px" />
+      <h1><b>Skills</b></h1>
+     
+       
+        <div className="sec1">
+        <h2>Programming languages:</h2> <br></br>
+        Java, Python, HTML, CSS, Javascript, C, C++
+        <br/><br></br>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src={HTML} alt="HTML" height="65px"width="65px" />
+        <img src={CSS} alt="CSS"height="65px"width="65px" />
+        <img src={JS} alt="JavaScript" height="65px"width="65px"/>
+        <img src={Java} alt="Java"height="65px"width="65px" />
+        <img src={Python} alt="Python"height="65px"width="65px" />
+        <img src={C} alt="C" height="65px"width="65px"/>
+        <img src={Cplus} alt="C++"height="65px"width="65px" />
+        </div>
+      
+        <br/>
+        <div className="sec2">
+       
+         <p><b><h2>Some libraries and frameworks used by me: </h2></b><br></br> React.js, bootstrap, Tailwind CSS</p>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <br/>
+      
+        <img src={Reactjs} alt="React.js"height="65px"width="65px" />
+
+        <img src={tailwindcss} alt="Tailwind CSS"height="65px"width="65px" />
+        <img src={bootstrap} alt="Bootstrap"height="65px"width="65px" />
+    
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br><br></br>
         
         </div>
+        <br/>
         <div className="sec3">
+      
+         <p><b><h2>Tools used by me:</h2> </b><br></br>VS code, Github, Docker, Kali linux, Terminal</p>
+         <br/>
+        
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src={vscode} alt="vscode"height="50px"width="50px" />
-        <img src={docker} alt="docker"height="50px"width="50px" />
-        <img src={github} alt="github"height="50px"width="50px" />
-        <img src={kali} alt="kali_linux"height="50px"width="50px" />
+        <img src={vscode} alt="vscode"height="65px"width="65px" />
+        <img src={docker} alt="docker"height="65px"width="65px" />
+        <img src={github} alt="github"height="65px"width="65px" />
+        <img src={kali} alt="kali_linux"height="65px"width="65px" />
         <div/>
 
         

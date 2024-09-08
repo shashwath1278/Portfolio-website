@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     gap:15px;
-    a{
+    a {
         font-size: 40px;
         
     }
@@ -40,32 +40,4 @@ button{
     border: none;
 
 }
-@media (max-width: 768px) {
-    .links a {
-        font-size: 24px; /* Smaller font size on mobile */
-    }
-    
-    .background {
-        max-width: 100%; /* Allow background to span entire width on mobile */
-    }
-    
-    button {
-        top: 15px;
-        left: 15px;
-        width: 40px;
-        height: 40px; /* Adjust size for mobile */
-    }
-}
 
-@media (max-width: 480px) {
-    .links a {
-        font-size: 18px; /* Even smaller font size on smaller screens */
-    }
-
-    button {
-        top: 10px;
-        left: 10px;
-        width: 35px;
-        height: 35px; /* Further adjust for smaller mobile devices */
-    }
-}
