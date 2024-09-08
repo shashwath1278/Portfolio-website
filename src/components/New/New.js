@@ -11,8 +11,11 @@ const New = () => {
      <h1><Ril/></h1>
      <h4>A second year undergrad at MSRIT, currently learning front-end dev and ethical hacking.</h4> 
      <div className="action"></div>
-     <div className='s'>Contact me</div>
+     <div className='s'> <a href="#social-platforms">Contact me</a>
+    
      </div>
+     </div>
+     
      </section>
    
   )

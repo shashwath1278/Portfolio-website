@@ -7,27 +7,17 @@
   position: relative; /* Ensure proper positioning */
 }
 
+.sec1,.sec2,.sec3{
+  font-size: 18px;
 
-
-
-.skills-header p {
-  font-size: 1.2rem; /* Slightly larger font size for paragraphs */
-  color: #898383e2; /* Medium grey color for the text */
-  margin: 10px 0; /* Space between paragraphs */
 }
-
-.skills-header h2 {
-  font-size: 1.5rem; /* Font size for subheadings */
-  color: #1b3cc2; /* Dark grey color for subheadings */
-  margin: 0; /* Remove margin for h2 inside p */
-}
-
 .skills-images {
   
-  h1{
-    font-size: 2.5rem; /* Larger font size for the heading */
-    color: #0fada8;
+  h2{
+    font-size: 1.5rem; /* Larger font size for the heading */
+    color: #1c6bc0;
   }
+  
   
     /* Slightly larger font size for paragraphs */
     color: #9295a8e2; /* Medium grey color for the text */
@@ -40,6 +30,7 @@
 }
 
 .sec1 img, .sec2 img, .sec3 img {
+
   width: 40px; /* Smaller width for images */
   height: 40px; /* Smaller height for images */
   margin: 5px; /* Margin around images */
