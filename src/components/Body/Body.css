@@ -2,3 +2,17 @@
     height:calc(100vh-100px);
     background:linear-gradient(180deg,rgba(0, 0, 0, 0.925),rgba(0, 0, 0, 0.859));    
 }
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .body {
+        height: auto; /* Allow the body to adapt based on content */
+        padding: 20px; /* Add some padding for mobile devices */
+    }
+}
+
+@media (max-width: 480px) {
+    .body {
+        padding: 10px; /* Further reduce padding for very small screens */
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.7)); /* Slightly lighter background for better visibility on small screens */
+    }
+}

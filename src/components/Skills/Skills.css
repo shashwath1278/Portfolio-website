@@ -48,19 +48,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }
 
-/* Responsive design for smaller screens */
-@media (max-width: 768px) {
-  .skills-images {
-    flex-direction: column; /* Stack images vertically */
-    align-items: center; /* Center align images */
-  }
-
-  .sec1, .sec2 , .sec3{
-    flex-direction: column; /* Stack images in sections vertically */
-  }
-}
-
-
 .sk {
   height: 100vh; /* Full viewport height */
   padding: 50px;
@@ -87,4 +74,48 @@
   
   gap: 40px;
  
+}
+/* Responsive design for tablets and smaller screens */
+@media (max-width: 768px) {
+  .skills-header h1 {
+    font-size: 2rem; /* Smaller heading font size */
+  }
+
+  .skills-header p {
+    font-size: 1rem; /* Smaller font size for paragraphs */
+  }
+
+  .skills-header h2 {
+    font-size: 1.2rem; /* Smaller font size for subheadings */
+  }
+
+  .sec1, .sec2, .sec3 {
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center align sections */
+  }
+
+  .skills-images {
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center align images */
+  }
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 480px) {
+  .skills-header h1 {
+    font-size: 1.5rem; /* Further reduce heading font size */
+  }
+
+  .skills-header p {
+    font-size: 0.9rem; /* Further reduce font size for paragraphs */
+  }
+
+  .skills-header h2 {
+    font-size: 1rem; /* Further reduce font size for subheadings */
+  }
+
+  .skills-images img {
+    width: 50px; /* Reduce image width for mobile */
+    height: 50px; /* Reduce image height for mobile */
+  }
 }

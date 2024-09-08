@@ -45,4 +45,20 @@
     margin-top: 0; /* Increase the negative margin */
   }
 
+  @media (max-width: 480px) {
+    .newcomp {
+        font-size: 14px; /* Smaller font size for mobile */
+        padding-top: 10px; /* Further reduce padding */
+    }
+
+    .s {
+        padding: 10px 20px; /* Further reduce button padding */
+        margin-top: 0; /* Adjust margin for mobile */
+    }
+
+    .newcomp img {
+        width: 90%; /* Fit images well on mobile */
+        max-width: 250px; /* Limit max width for mobile screens */
+    }
+}
 
