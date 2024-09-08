@@ -30,16 +30,39 @@
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    height: auto;
+    height: auto; /* Allow the navbar to adjust based on content */
+    padding: 10px; /* Add some padding for smaller screens */
   }
 
   .wrapper {
     justify-content: center;
+    margin-left: 0; /* Remove left margin for centered alignment */
     margin-bottom: 10px;
   }
 
   .contact-info {
     justify-content: center;
     margin-top: 10px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px; /* Reduce padding for very small screens */
+    background-size: contain; /* Adjust background image for smaller devices */
+  }
+
+  .wrapper, .contact-info {
+    font-size: 18px; /* Reduce font size for smaller screens */
+  }
+
+  .wrapper {
+    margin-left: 0; /* No margin on small screens */
+    margin-bottom: 5px;
+  }
+
+  .contact-info {
+    gap: 10px; /* Reduce gap between contact info elements */
   }
 }

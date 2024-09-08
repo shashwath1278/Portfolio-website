@@ -50,3 +50,25 @@ a {
 }
 
 /* Section styling to ensure they take up full height */
+
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  body {
+    background-size: cover; /* Keep cover for smaller screens */
+    background-position: top; /* Adjust the background position */
+  }
+
+  .box {
+    width: 120px; /* Smaller box size on mobile */
+    height: 120px;
+  }
+
+  .f {
+    padding: 10px; /* Reduce padding for mobile devices */
+  }
+
+  .section {
+    padding: 10px; /* Further reduce padding on sections */
+  }
+}

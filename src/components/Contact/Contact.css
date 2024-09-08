@@ -46,4 +46,44 @@
     font-size: 18px;
     font-style: italic;
   }
-  
+  /* For tablets and smaller screens */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 28px; /* Slightly smaller font size */
+  }
+
+  .conts {
+      flex-direction: column; /* Stack icons vertically */
+      gap: 20px; /* Adjust gap between icons */
+  }
+
+  .conts img {
+      width: 60px;
+      height: 60px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .c {
+      background-size: cover;
+      padding: 10px; /* Reduce padding for mobile screens */
+  }
+
+  h1 {
+      font-size: 24px; /* Smaller font size for mobile */
+  }
+
+  .conts {
+      gap: 15px; /* Further reduce gap between icons */
+  }
+
+  .conts img {
+      width: 50px; /* Smaller icons on mobile */
+      height: 50px;
+  }
+
+  .wpl {
+      font-size: 14px; /* Smaller font size for the position text */
+  }
+}

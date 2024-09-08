@@ -17,3 +17,26 @@
 .links a:hover {
     color: #3498db; /* Change this to any color you want for hover effect */
 }
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .links {
+        gap: 30px; /* Reduce gap between links */
+        margin-top: 30px; /* Adjust margin */
+    }
+
+    .links a {
+        font-size: 20px; /* Slightly smaller font size */
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .links {
+        gap: 20px; /* Further reduce gap between links */
+        margin-top: 20px; /* Further adjust margin */
+    }
+
+    .links a {
+        font-size: 18px; /* Smaller font size for mobile */
+    }
+}

@@ -68,18 +68,41 @@
     background-color: #003270;
   }
   
-  @media (max-width: 768px) {
-    .socials {
+/* Responsive design for tablets and smaller screens */
+@media (max-width: 768px) {
+  .socials {
       flex-direction: column;
-    }
-  
-    .social, .container {
+      padding: 20px; /* Reduced padding for smaller screens */
+  }
+
+  .social, .container {
       padding: 0;
       text-align: center;
-    }
-  
-    .social {
-      margin-bottom: 30px;
-    }
+      margin: 0; /* Reset margin for better spacing */
   }
-  
+
+  .social {
+      margin-bottom: 30px;
+  }
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 480px) {
+  .social h1 {
+      font-size: 2rem; /* Smaller heading font size for mobile */
+  }
+
+  .item h2 {
+      font-size: 1.2rem; /* Smaller font size for item subheadings */
+  }
+
+  form input, form textarea {
+      padding: 12px; /* Slightly smaller padding */
+      font-size: 0.9rem; /* Smaller font size */
+  }
+
+  form button {
+      padding: 12px;
+      font-size: 0.9rem; /* Slightly smaller button font size */
+  }
+}
