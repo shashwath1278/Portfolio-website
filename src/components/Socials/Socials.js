@@ -41,8 +41,8 @@ const Socials = () => {
     
    </div>
    <div className="item">
-    <h2>Phone</h2>
-    <span>+91 6361230542</span>
+    <h2>GitHub</h2>
+    <span>shashwath1278</span>
     
    </div>
    </div>
