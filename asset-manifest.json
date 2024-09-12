@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio-website/static/css/main.23742c63.css",
+    "main.js": "/Portfolio-website/static/js/main.c3fa0545.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio-website/static/js/453.1407b060.chunk.js",
+    "static/media/shashwath-img.jpg": "/Portfolio-website/static/media/shashwath-img.605b3c3583f06bd1971b.jpg",
+    "index.html": "/Portfolio-website/index.html",
+    "main.23742c63.css.map": "/Portfolio-website/static/css/main.23742c63.css.map",
+    "main.c3fa0545.js.map": "/Portfolio-website/static/js/main.c3fa0545.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio-website/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23742c63.css",
+    "static/js/main.c3fa0545.js"
+  ]
+}
