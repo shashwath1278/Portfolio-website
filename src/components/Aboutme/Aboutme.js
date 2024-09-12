@@ -16,7 +16,7 @@ const Aboutme = () => {
         </p>
 
       </div>
-    </section>
+    </section> 
   );
 };
 
